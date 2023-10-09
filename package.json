@@ -1,0 +1,29 @@
+{
+  "name": "node_js_app",
+  "version": "1.0.0",
+  "description": "node.js app",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrozdovDenys/epam_node.js_course.git"
+  },
+  "author": "Denys Drozdov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrozdovDenys/epam_node.js_course/issues"
+  },
+  "homepage": "https://github.com/DrozdovDenys/epam_node.js_course#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
