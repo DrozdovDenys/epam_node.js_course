@@ -1,6 +1,6 @@
-import { Router } from "express";
+import { Response, Router } from "express";
 
-const healthCheckRouter = Router();
+const healthCheckRouter: Router = Router();
 
 /**
  * @swagger
@@ -30,7 +30,7 @@ const healthCheckRouter = Router();
  *       - Health Check
  */
 
-healthCheckRouter.get("/", (req, res) =>
+healthCheckRouter.get("/", (_req, res: Response) =>
   res.json({ status: "Server is running" })
 );
 
